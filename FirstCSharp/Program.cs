@@ -20,7 +20,14 @@ namespace FirstCSharp
                 // Concatinates the number of pizzas to the string
                 Console.WriteLine("Eat pizza number " + (i+1));
             }
-            
+
+            string topping = "pineapple";
+
+            while (topping == "pineapple") ;
+            {
+                Console.WriteLine("What's your favourite topping?");
+                topping = Console.ReadLine();
+            }
 
             Console.ReadLine();
 
