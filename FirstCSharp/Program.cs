@@ -10,7 +10,16 @@ namespace FirstCSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
+
+            Console.WriteLine("How many pizzas would you like to eat? ");
+            int answer = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < answer; i++)
+            {
+                Console.WriteLine("Eat pizza number " + (i+1));
+            }
+
+
             Console.ReadLine();
 
         }
